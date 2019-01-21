@@ -23,7 +23,7 @@ class DemoViewController: UIViewController
     
     @objc func back()
     {
-        self.dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
         
 }
