@@ -66,3 +66,77 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+AlertViewComponent/AlertViewComponent.xcworkspace/contents.xcworkspacedata
+AlertViewComponent/AlertViewComponent.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+AlertViewComponent/Pods/Manifest.lock
+AlertViewComponent/Pods/Pods.xcodeproj/project.pbxproj
+AlertViewComponent/Pods/pop/LICENSE
+AlertViewComponent/Pods/pop/README.md
+AlertViewComponent/Pods/pop/pop/POP.h
+AlertViewComponent/Pods/pop/pop/POPAction.h
+AlertViewComponent/Pods/pop/pop/POPAnimatableProperty.h
+AlertViewComponent/Pods/pop/pop/POPAnimatableProperty.mm
+AlertViewComponent/Pods/pop/pop/POPAnimatablePropertyTypes.h
+AlertViewComponent/Pods/pop/pop/POPAnimation.h
+AlertViewComponent/Pods/pop/pop/POPAnimation.mm
+AlertViewComponent/Pods/pop/pop/POPAnimationEvent.h
+AlertViewComponent/Pods/pop/pop/POPAnimationEvent.mm
+AlertViewComponent/Pods/pop/pop/POPAnimationEventInternal.h
+AlertViewComponent/Pods/pop/pop/POPAnimationExtras.h
+AlertViewComponent/Pods/pop/pop/POPAnimationExtras.mm
+AlertViewComponent/Pods/pop/pop/POPAnimationInternal.h
+AlertViewComponent/Pods/pop/pop/POPAnimationPrivate.h
+AlertViewComponent/Pods/pop/pop/POPAnimationRuntime.h
+AlertViewComponent/Pods/pop/pop/POPAnimationRuntime.mm
+AlertViewComponent/Pods/pop/pop/POPAnimationTracer.h
+AlertViewComponent/Pods/pop/pop/POPAnimationTracer.mm
+AlertViewComponent/Pods/pop/pop/POPAnimationTracerInternal.h
+AlertViewComponent/Pods/pop/pop/POPAnimator.h
+AlertViewComponent/Pods/pop/pop/POPAnimator.mm
+AlertViewComponent/Pods/pop/pop/POPAnimatorPrivate.h
+AlertViewComponent/Pods/pop/pop/POPBasicAnimation.h
+AlertViewComponent/Pods/pop/pop/POPBasicAnimation.mm
+AlertViewComponent/Pods/pop/pop/POPBasicAnimationInternal.h
+AlertViewComponent/Pods/pop/pop/POPCGUtils.h
+AlertViewComponent/Pods/pop/pop/POPCGUtils.mm
+AlertViewComponent/Pods/pop/pop/POPCustomAnimation.h
+AlertViewComponent/Pods/pop/pop/POPCustomAnimation.mm
+AlertViewComponent/Pods/pop/pop/POPDecayAnimation.h
+AlertViewComponent/Pods/pop/pop/POPDecayAnimation.mm
+AlertViewComponent/Pods/pop/pop/POPDecayAnimationInternal.h
+AlertViewComponent/Pods/pop/pop/POPDefines.h
+AlertViewComponent/Pods/pop/pop/POPGeometry.h
+AlertViewComponent/Pods/pop/pop/POPGeometry.mm
+AlertViewComponent/Pods/pop/pop/POPLayerExtras.h
+AlertViewComponent/Pods/pop/pop/POPLayerExtras.mm
+AlertViewComponent/Pods/pop/pop/POPMath.h
+AlertViewComponent/Pods/pop/pop/POPMath.mm
+AlertViewComponent/Pods/pop/pop/POPPropertyAnimation.h
+AlertViewComponent/Pods/pop/pop/POPPropertyAnimation.mm
+AlertViewComponent/Pods/pop/pop/POPPropertyAnimationInternal.h
+AlertViewComponent/Pods/pop/pop/POPSpringAnimation.h
+AlertViewComponent/Pods/pop/pop/POPSpringAnimation.mm
+AlertViewComponent/Pods/pop/pop/POPSpringAnimationInternal.h
+AlertViewComponent/Pods/pop/pop/POPSpringSolver.h
+AlertViewComponent/Pods/pop/pop/POPVector.h
+AlertViewComponent/Pods/pop/pop/POPVector.mm
+AlertViewComponent/Pods/pop/pop/WebCore/FloatConversion.h
+AlertViewComponent/Pods/pop/pop/WebCore/TransformationMatrix.cpp
+AlertViewComponent/Pods/pop/pop/WebCore/TransformationMatrix.h
+AlertViewComponent/Pods/pop/pop/WebCore/UnitBezier.h
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Info.plist
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent-acknowledgements.markdown
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent-acknowledgements.plist
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent-dummy.m
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent-frameworks.sh
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent-resources.sh
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent-umbrella.h
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent.debug.xcconfig
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent.modulemap
+AlertViewComponent/Pods/Target Support Files/Pods-AlertViewComponent/Pods-AlertViewComponent.release.xcconfig
+AlertViewComponent/Pods/Target Support Files/pop/Info.plist
+AlertViewComponent/Pods/Target Support Files/pop/pop-dummy.m
+AlertViewComponent/Pods/Target Support Files/pop/pop-prefix.pch
+AlertViewComponent/Pods/Target Support Files/pop/pop-umbrella.h
+AlertViewComponent/Pods/Target Support Files/pop/pop.modulemap
+AlertViewComponent/Pods/Target Support Files/pop/pop.xcconfig
