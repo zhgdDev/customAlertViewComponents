@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ComposeButton" customModule="SwiftAlertVIewComponent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share_copy-1" translatesAutoresizingMaskIntoConstraints="NO" id="WWe-Q9-bZO">
+                    <rect key="frame" x="10" y="0.0" width="80" height="80"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="7WN-mG-n3e"/>
+                        <constraint firstAttribute="height" constant="80" id="ln4-G2-EV2"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="文字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7N1-6Z-YCn">
+                    <rect key="frame" x="36.5" y="84" width="27" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="KWh-0h-IeS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="WWe-Q9-bZO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3gm-US-dzX"/>
+                <constraint firstItem="7N1-6Z-YCn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6k1-cL-YA5"/>
+                <constraint firstItem="7N1-6Z-YCn" firstAttribute="top" secondItem="WWe-Q9-bZO" secondAttribute="bottom" constant="4" id="9pe-xe-3Pn"/>
+                <constraint firstAttribute="bottom" secondItem="7N1-6Z-YCn" secondAttribute="bottom" id="UZF-kb-67m"/>
+                <constraint firstItem="WWe-Q9-bZO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oFQ-OA-Er3"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="WWe-Q9-bZO" id="r9u-Xk-1kn"/>
+                <outlet property="titleLabel" destination="7N1-6Z-YCn" id="TWp-yA-OWd"/>
+            </connections>
+            <point key="canvasLocation" x="112" y="-587.40629685157421"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="share_copy-1" width="89.5" height="89.5"/>
+    </resources>
+</document>

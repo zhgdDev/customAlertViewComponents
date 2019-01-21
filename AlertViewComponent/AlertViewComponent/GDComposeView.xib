@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GDComposeView" customModule="SwiftAlertVIewComponent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsH-vx-YwS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1J1-DU-Qe6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享你的有趣" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Umd-YK-QSp">
+                                <rect key="frame" x="135.5" y="100" width="104" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QjY-FF-JTH">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GV-OJ-gFI">
+                                        <rect key="frame" x="175" y="9.5" width="25" height="25"/>
+                                        <state key="normal" image="GD_Cancel_ICON"/>
+                                        <connections>
+                                            <action selector="close:" destination="iN0-l3-epB" eventType="touchUpInside" id="caw-4A-DB6"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-Jj-b0u">
+                                        <rect key="frame" x="179.5" y="10" width="16" height="24"/>
+                                        <state key="normal" image="GD_back_ICON"/>
+                                        <connections>
+                                            <action selector="returnBack:" destination="iN0-l3-epB" eventType="touchUpInside" id="3IA-i9-eVO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1Bw-Jj-b0u" firstAttribute="centerY" secondItem="QjY-FF-JTH" secondAttribute="centerY" id="Bms-YC-vFX"/>
+                                    <constraint firstItem="1Bw-Jj-b0u" firstAttribute="centerX" secondItem="QjY-FF-JTH" secondAttribute="centerX" id="RMx-nt-6RN"/>
+                                    <constraint firstItem="4GV-OJ-gFI" firstAttribute="centerY" secondItem="QjY-FF-JTH" secondAttribute="centerY" id="exz-Pb-uyr"/>
+                                    <constraint firstItem="4GV-OJ-gFI" firstAttribute="centerX" secondItem="QjY-FF-JTH" secondAttribute="centerX" id="fL0-yw-Pra"/>
+                                    <constraint firstAttribute="height" constant="44" id="t5s-zk-0Fy"/>
+                                </constraints>
+                            </view>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgj-iR-ZQo">
+                                <rect key="frame" x="0.0" y="244" width="375" height="224"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="erC-Fa-Gp7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="QjY-FF-JTH" secondAttribute="bottom" id="0EO-uP-w63"/>
+                            <constraint firstAttribute="trailing" secondItem="mgj-iR-ZQo" secondAttribute="trailing" id="2YY-bv-zcK"/>
+                            <constraint firstItem="Umd-YK-QSp" firstAttribute="centerX" secondItem="1J1-DU-Qe6" secondAttribute="centerX" id="B24-CC-reV"/>
+                            <constraint firstAttribute="trailing" secondItem="QjY-FF-JTH" secondAttribute="trailing" id="Dba-Ba-LBD"/>
+                            <constraint firstItem="QjY-FF-JTH" firstAttribute="leading" secondItem="1J1-DU-Qe6" secondAttribute="leading" id="OFI-Hl-Nne"/>
+                            <constraint firstItem="QjY-FF-JTH" firstAttribute="top" secondItem="mgj-iR-ZQo" secondAttribute="bottom" constant="50" id="TTm-Jr-fGB"/>
+                            <constraint firstItem="mgj-iR-ZQo" firstAttribute="leading" secondItem="1J1-DU-Qe6" secondAttribute="leading" id="tKW-Qr-vMY"/>
+                            <constraint firstItem="Umd-YK-QSp" firstAttribute="top" secondItem="1J1-DU-Qe6" secondAttribute="top" constant="100" id="v6N-aK-ROX"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="extraLight"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bsH-vx-YwS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Eh4-aC-hj2"/>
+                <constraint firstItem="bsH-vx-YwS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KPg-l9-uoJ"/>
+                <constraint firstAttribute="bottom" secondItem="bsH-vx-YwS" secondAttribute="bottom" id="iTT-Jx-luu"/>
+                <constraint firstAttribute="trailing" secondItem="bsH-vx-YwS" secondAttribute="trailing" id="w9H-n0-Qw9"/>
+            </constraints>
+            <connections>
+                <outlet property="closeBtn" destination="4GV-OJ-gFI" id="sQw-Tl-3Ia"/>
+                <outlet property="closeBtnCenterCons" destination="fL0-yw-Pra" id="Ntu-ad-20E"/>
+                <outlet property="returnBtn" destination="1Bw-Jj-b0u" id="qM6-Do-kQm"/>
+                <outlet property="returnBtnCenterCons" destination="RMx-nt-6RN" id="D5r-PT-emk"/>
+                <outlet property="scrollView" destination="mgj-iR-ZQo" id="JPH-KY-JU6"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="GD_Cancel_ICON" width="25" height="25"/>
+        <image name="GD_back_ICON" width="16" height="24"/>
+    </resources>
+</document>
