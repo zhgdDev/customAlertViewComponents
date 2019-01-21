@@ -70,7 +70,9 @@ extension RootViewController
         composeButton.backgroundColor = UIColor.blue
 
         let count = CGFloat(viewControllers!.count)
-        let w = (tabBar.bounds.width) / count - 1
+        
+        //有可能有错熔点在
+        let w = (tabBar.bounds.width) / count
         composeButton.frame = tabBar.bounds.insetBy(dx:w * 1, dy: 0)
         tabBar.addSubview(composeButton)
 
